@@ -23,7 +23,7 @@ def return_figures():
 
     layout_one = dict(title = 'Total Population {}-{}'.format(str(df['year'].min()), str(df['year'].max())),
                 xaxis = dict(title = 'Year'),
-                yaxis = dict(title = 'Population')
+                yaxis = dict(title = 'Population', range = (3000000, 4000000))
                 )
 
     # second chart plots german vs foreign population as grouped bar
@@ -36,7 +36,7 @@ def return_figures():
 
     layout_two = dict(title = 'German vs Foreign Population {}-{}'.format(str(df['year'].min()), str(df['year'].max())),
                 xaxis = dict(title = 'Year'),
-                yaxis = dict(title = 'Population'),
+                yaxis = dict(title = 'Population', range = (0, 4000000)),
                 barmode='stack'
                 )
 
@@ -47,7 +47,7 @@ def return_figures():
 
     layout_three = dict(title = 'Population by Neighbourhood {}-{}'.format(str(df['year'].min()), str(df['year'].max())),
                 xaxis = dict(title = 'Year'),
-                yaxis = dict(title = 'Population')
+                yaxis = dict(title = 'Population', range = (200000, 450000))
                        )
     
     # fourth chart shows rural population vs arable land
@@ -71,7 +71,7 @@ def return_figures():
 
     layout_four = dict(title = 'YoY Avg Age {}-{}'.format(str(df['year'].min()), str(df['year'].max())),
                 xaxis = dict(title = 'Year'),
-                yaxis = dict(title = 'Avg Age (yrs)'),
+                yaxis = dict(title = 'Avg Age (yrs)', range = (35, 50)),
                 )
     
     # append all charts to the figures list
