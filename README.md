@@ -28,7 +28,8 @@ The version of the files contained in this repository can be used to render the 
 - myapp: folder containing HTML file for web page, image files and instantiate & routes files
 - wrangling_scripts: contains file for wrangling and visualising data
 
-To render the dashboard locally, download and navigate to the repository and enter the command `python myapp.py`
+To render the dashboard locally, download and navigate to the repository and enter the command
+```python myapp.py```
 
 ## Licensing, Authors, Acknowledgements <a name="licensing"></a>
 
