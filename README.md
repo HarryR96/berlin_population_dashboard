@@ -16,9 +16,9 @@ There should be no necessary libraries to run the code here beyond the Anaconda 
 
 The motivation behind undertaking this project was to gain familiarity with the process of developing a dashboard of visualisations from scratch. The steps of the process were as follows:
 
-1. Creating a file to wrangle the data using pandas and build the visualisations using Plotly
-2. Writing the HTML file for the web page using a template from Bootstrap
-3. Creating the instantiate file to make use of Flask to eventually deploy the files as a web app
+1. Creating a file to wrangle the data using pandas and build the visualisations using [Plotly](https://plotly.com/)
+2. Writing the HTML file for the web page using a template from [Bootstrap](https://getbootstrap.com/)
+3. Creating the instantiate file to make use of [Flask](https://flask.palletsprojects.com/en/1.1.x/) to eventually deploy the files as a web app
 
 The version of the files contained in this repository can be used to render the app on a local machine. The final web version of the app was deployed via Heroku, and can be viewed [here](https://berlin-population-dashboard.herokuapp.com/)
 
