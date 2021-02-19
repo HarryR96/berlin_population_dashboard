@@ -10,7 +10,7 @@ End-to-end development and deployment of a dashboard displaying statistics on Be
 
 ## Installation <a name="installation"></a>
 
-There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python.  The code should run with no issues using Python version 3.
+There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python. The code should run with no issues using Python version 3.
 
 ## Project Motivation<a name="motivation"></a>
 
